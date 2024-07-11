@@ -9,7 +9,7 @@ button {
 .top-section {
   display: flex;
   flex-flow: column wrap;
-  background-image: url(../Resources/main-background.jpg);
+  background-image: url(../../Resources/main-background.jpg);
   background-size: cover;
   width: 100vw;
 }
