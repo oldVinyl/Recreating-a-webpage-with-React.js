@@ -1,0 +1,12 @@
+.gallery {
+  column-count: 2;
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+.img{
+  display: inline-block;
+  padding: 35px;
+  max-width: 350px;
+  max-height: 550px;
+}

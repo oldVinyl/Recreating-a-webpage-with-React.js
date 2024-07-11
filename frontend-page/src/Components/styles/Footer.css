@@ -1,0 +1,74 @@
+p {
+  display: inline-block;
+  color: white;
+  font-weight: bolder;
+}
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  background-color: orange;
+  padding-top: 20px;
+}
+.left-div, .right-div, .propaganda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  height: 100%;
+}
+
+.fake-map{
+  display: block;
+  padding-left: 0;
+  margin-bottom: 35px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.input-field {
+  display: flex;
+}
+
+input{
+  height: 32px;
+  width: 270px;
+}
+
+.arrow-btn {
+  background-color: blue;
+  border: none;
+}
+
+.propaganda {
+  margin-top: 30px;
+  margin-bottom: 43px;
+}
+
+.TBP-logo {
+  margin: 0 75px 0 75px;
+}
+
+.fancy-text {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+}
+
+.socials {
+  display: flex;
+  align-content: space-between;
+  gap: 17px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.socials img {
+  width: 42px;
+  height: 42px;
+}
+
+.arrow-btn img {
+  height: 25px;
+}
